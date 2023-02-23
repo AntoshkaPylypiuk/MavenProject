@@ -6,11 +6,11 @@ public class Calculation {
         for ( Road road : roadList ) {
             if (road.getType().equals("Business")) {
                 int price = road.getLength() * 10;
-                System.out.println("Тип таксі " + road.getType() + " відсань " + road.getLength() + " ціна " + price);
+                System.out.println("Type of taxi " + road.getType() + " length " + road.getLength() + " price " + price);
             }
             if (road.getType().equals("Default")) {
                 int price = road.getLength() * 5;
-                System.out.println("Тип таксі " + road.getType() + " відсань " + road.getLength() + " ціна " + price);
+                System.out.println("Type of taxi " + road.getType() + " length " + road.getLength() + " price " + price);
             }
         }
 
